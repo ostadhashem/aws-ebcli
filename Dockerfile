@@ -3,10 +3,8 @@ FROM alpine
 
 RUN apk --no-cache add \
         bash \
-        less \
         groff \
         jq \
-        git \
         curl \
         python \
         py-pip
